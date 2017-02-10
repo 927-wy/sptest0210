@@ -10,11 +10,14 @@ org.springframework.beans.factory.BeanDefinitionStoreException: IOException pars
 
 所以我在web.xml里面加入了
 
+
 `
  <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>/WEB-INF/ContextLoaderListener.xml</param-value>
  </context-param>
 `
+
+
 解决了那个错误。
 已经可以访问，接下来，把控制器代码写写就行了。
