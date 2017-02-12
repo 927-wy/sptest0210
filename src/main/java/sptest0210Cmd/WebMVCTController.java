@@ -24,6 +24,7 @@ public class WebMVCTController implements Controller {
 		//resp.getWriter().write(test);
 		String test = req.getParameter("username");
 		System.out.println(test);
+		mvi.addObject("userName",test)
 		return mvi;
 		
 	}
