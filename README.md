@@ -23,3 +23,5 @@ org.springframework.beans.factory.BeanDefinitionStoreException: IOException pars
 
 解决了那个错误。
 已经可以访问，接下来，把控制器代码写写就行了。
+
+test from website
